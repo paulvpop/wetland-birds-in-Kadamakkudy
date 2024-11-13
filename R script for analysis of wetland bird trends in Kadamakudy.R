@@ -1,4 +1,4 @@
-#1. Getting start####
+#1. Getting started####
 
 #> Set working directory. This is important for selecting input files and saving
 #> outputs.In RStudio, you can simply click on the tab 'Session' on top and select 
