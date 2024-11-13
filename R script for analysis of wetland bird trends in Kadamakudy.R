@@ -858,7 +858,7 @@ str(species)
 # means that no. of species recorded in the area = 236
 nrow(species)
   
-#Cut it up into 10 parts (in this case) so that flextable docx handle the table:
+#Cut it up into 10 parts (in this case) so that flextable docx can handle the table:
 split_species <- split(species, factor(sort(rank(row.names(species))%%10)))
 str(split_species)
   
